@@ -6,14 +6,13 @@
 package Aplicacion.Services;
 
 import Aplicacion.Models.Person;
-import Interfaces.IGenericService;
 import java.util.ArrayList;
 
 /**
  *
  * @author Marty
  */
-public class PersonService extends GenericService<Person> implements IGenericService {
+public class PersonService extends GenericService<Person>  {
     //private final ArrayList<Person> people;
 
     public PersonService() {

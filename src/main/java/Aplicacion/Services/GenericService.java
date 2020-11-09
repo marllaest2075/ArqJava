@@ -6,14 +6,14 @@
 package Aplicacion.Services;
 
 import Aplicacion.Models.BaseModel;
-import Interfaces.IGenericService;
+import Aplicacion.Interfaces.IGenericService;
 import java.util.ArrayList;
 
 /**
  *
  * @author Marty
  */
-public class GenericService<T extends BaseModel> implements IGenericService {
+public class GenericService<T extends BaseModel> implements IGenericService<BaseModel> {
 
     protected T _item;
     protected ArrayList<T> _items;
